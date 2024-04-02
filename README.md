@@ -32,11 +32,11 @@
         - _Öffnen_
     - Navigate to "Dateien" tab in the left panel
     - Copy the files `krl_sources/EkiHWInterface.xml` and `krl_sources/EkiIOInterface.xml`, modified in step 4,
-      to `<KRC>/Config/User/Common/EthernetKRL`  
+      to `IRAS-IRL<X>-KRC/Config/User/Common/EthernetKRL`  
       ![EKI Interface XMLs](readme_imgs/xmls.png)
-    - Create new folder `<KRC>/R1/Program/ros2_driver`
+    - Create new folder `IRAS-IRL<X>-KRC/KRC/R1/Program/ros2_driver`
     - Copy downloaded `krl_sources/kuka_eki_hw_interface.dat` and `krl_sources/kuka_eki_hw_interface.src`
-      to `<KRC>/R1/Program/ros2_driver`  
+      to `IRAS-IRL<X>-KRC/KRC/R1/Program/ros2_driver`  
       ![KRL Program Files](readme_imgs/krl_files.png)
 7. Install program
     - Switch to user group _Administrator_ on smartPAD (see step 6)
